@@ -1,0 +1,7 @@
+https://sleeplessbeastie.eu/2020/01/29/how-to-use-haproxy-stats-socket/
+https://www.haproxy.com/blog/use-a-load-balancer-as-a-first-row-of-defense-against-ddos/
+https://www.haproxy.com/documentation/hapee/1-8r1/onepage/#stick-table
+https://www.haproxy.com/blog/introduction-to-haproxy-stick-tables/
+https://www.haproxy.com/blog/application-layer-ddos-attack-protection-with-haproxy/
+http://www.haproxy.org/
+https://stackoverflow.com/questions/12732182/ab-load-testing

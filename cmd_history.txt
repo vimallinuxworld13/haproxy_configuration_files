@@ -1,0 +1,681 @@
+    1  yum  install  haproxy
+    2  rpm  -q haproxy
+    3  ping 172.31.41.12
+    4  vim my.key
+    5  vi my.key
+    6  ssh -i my.key  172.31.41.12
+    7  ls -l
+    8  chmod  400  my.key
+    9  ls- l
+   10  ls -l
+   11  ssh -i my.key  172.31.41.12
+   12  ssh -i my.key  ec2-user@172.31.41.12
+   13  exit
+   14  rpm -q haproxy
+   15  vi /etc/haproxy/haproxy.cfg
+   16  vim  mylb.cfg
+   17  yum  install vim -y
+   18  vim  mylb.cfg
+   19  ls
+   20  haproxy  -f   mylb.cfg  -c
+   21  vim  mylb.cfg
+   22  ip addr
+   23  vim  mylb.cfg
+   24  haproxy  -f   mylb.cfg  -c
+   25  vim  mylb.cfg
+   26  haproxy  -f   mylb.cfg  -c
+   27  vim  mylb.cfg
+   28  haproxy  -f   mylb.cfg  -c
+   29  vim  mylb.cfg
+   30  haproxy  -f   mylb.cfg  -c
+   31  haproxy  -f   mylb.cfg
+
+   31  haproxy  -f   mylb.cfg
+   32  ls
+   33  cat mylb.cfg
+   34  haproxy  -f   mylb.cfg
+   35  vim mylb.cfg
+   36  cp mylb.cfg  new.cf
+   37  vim new.cfg
+   38  haproxy  -f   new.cfg
+   39  vim new.cfg
+   40  haproxy  -f   new.cfg
+   41  vim new.cfg
+   42  haproxy  -f   new.cfg
+   43  vim new.cfg
+   44  haproxy  -f   new.cfg
+   45  vim new.cfg
+   46  haproxy  -f   new.cfg
+   47  vim new.cfg
+   48  haproxy  -f   new.cfg
+   49  vim new.cfg
+   50  haproxy  -f   new.cfg
+   51  vim new.cfg
+   52  ssh -i my.key   172.31.35.150
+   53  ssh -i my.key  -l ec2-user  172.31.35.150
+   54  cat  new.cfg
+   55  ssh -i my.key  -l ec2-user  172.31.41.12
+   56  vim new.cfg
+   57  haproxy  -f   new.cfg
+   58  vim new.cfg
+   59  haproxy  -f   new.cfg
+
+
+ 59  haproxy  -f   new.cfg
+   60  ls
+   61  vim new.cfg
+   62  haproxy  -f   new.cfg
+   63  vim new.cfg
+   64  grep 3000 new.cfg
+   65  curl
+   66  curl 172.31.35.150:3000
+   67  curl 172.31.35.150:3000/hr
+   68  curl 172.31.35.150:30data
+   69  curl 172.31.35.150:30/data
+   70  curl 172.31.35.150:3000/data
+   71  grep 3000 new.cfg
+   72  curl 172.31.41.12:3000/hr
+   73  vim new.cfg
+   74  haproxy  -f   new.cfg
+   75  vi new.cfg
+   76  haproxy  -f   new.cfg
+   77  ls
+   78  vin new.cfg
+   79  vim new.cfg
+   80  haproxy  -f   new.cfg
+   81  vim new.cfg
+   82  haproxy  -f   new.cfg
+   83  vim new.cfg
+   84  haproxy  -f   new.cfg
+   85  vim new.cfg
+   86  haproxy  -f   new.cfg
+   87  vim new.cfg
+   88  haproxy  -f   new.cfg
+   89  vim new.cfg
+
+
+  88  haproxy  -f   new.cfg
+   89  vim new.cfg
+   90  haproxy  -f   new.cfg
+   91  vim new.cfg
+   92  haproxy  -f   new.cfg
+   93  vim new.cfg
+   94  haproxy  -f   new.cfg
+   95  vim new.cfg
+   96  haproxy  -f   new.cfg  &
+   97  curl 127.0.0.1/data
+   98  vim new.cfg
+   99  fg
+  100  haproxy  -f   new.cfg  &
+  101  curl 127.0.0.1/data
+  102  fg
+  103  haproxy --version
+  104  haproxy -v
+  105  vim new.cfg
+  106  ssh -i my.key  ec2-user@ 172.31.36.135
+  107  ssh -i my.key  ec2-user@172.31.36.135
+  108  curl 127.0.0.1/data
+  109  vim  new.cfg
+  110  ps aux | grep ha
+  111  ps aux | grep haproxy
+  112  pgrep haproxy
+  113  kill -9 `pgrep haproxy`
+  114  pgrep haproxy
+  115  ps aux | grep haproxy
+  116  haproxy  -f   new.cfg  &
+  117  ps aux | grep haproxy
+  118  vin new.cfg
+                                               
+                                               
+                                                117  ps aux | grep haproxy
+  118  vin new.cfg
+  119  vim new.cfg
+  120  kill -9 `pgrep haproxy`
+  121  haproxy  -f   new.cfg  &
+  122  ps aux | grep haproxy
+  123  vim new.cfg
+  124  kill -9 `pgrep haproxy`
+  125  haproxy  -f   new.cfg  &
+  126  ps aux | grep haproxy
+  127  vim new.cfg
+  128  kill -9 `pgrep haproxy`
+  129  haproxy  -f   new.cfg  &
+  130  kill -9 `pgrep haproxy`
+  131  vim new.cfg
+  132  kill -9 `pgrep haproxy`
+  133  haproxy  -f   new.cfg  &
+  134  vim new.cfg
+  135  haproxy  -f   new.cfg  &
+  136  vim new.cfg
+  137  kill -9 `pgrep haproxy`
+  138  haproxy  -f   new.cfg  &
+  139  kill -9 `pgrep haproxy`
+  140  vim new.cfg
+  141  kill -9 `pgrep haproxy`
+  142  haproxy  -f   new.cfg  &
+  143  vim new.cfg
+  144  haproxy  -f   new.cfg  &
+  145  vim new.cfg
+  146  kill -9 `pgrep haproxy`
+  147  haproxy  -f   new.cfg  &
+
+  147  haproxy  -f   new.cfg  &
+  148  kill -9 `pgrep haproxy`
+  149  vim new.cfg
+  150  ls
+  151  ssh  -i my.key  ec2-user@172.31.35.150
+  152  ssh  -i my.key  ec2-user@172.31.41.12
+  153  ssh  -i my.key  ec2-user@172.31.36.135
+  154  ssh  -i my.key  ec2-user@172.31.40.232
+  155  ls
+  156  vim mylb.cfg
+  157  haproxy  -f  mylb.cfg  -c
+  158  vim mylb.cfg
+  159  haproxy  -f  mylb.cfg  -c
+  160  vim mylb.cfg
+  161  haproxy  -f  mylb.cfg  -c
+  162  vim mylb.cfg
+  163  haproxy  -f  mylb.cfg  -c
+  164  vim mylb.cfg
+  165  haproxy  -f  mylb.cfg  -c
+  166  haproxy  -f  mylb.cfg
+  167  ssh  -i my.key  ec2-user@172.31.40.232
+  168  haproxy  -f  mylb.cfg
+  169  vim mylb.cfg
+  170  haproxy  -f  mylb.cfg
+  171  vim mylb.cfg
+  172  haproxy  -f  mylb.cfg
+  173  vim mylb.cfg
+  174  haproxy  -f  mylb.cfg
+  175  vim mylb.cfg
+  176  haproxy  -f  mylb.cfg
+
+
+  175  vim mylb.cfg
+  176  haproxy  -f  mylb.cfg
+  177  vim mylb.cfg
+  178  haproxy  -f  mylb.cfg
+  179  vim mylb.cfg
+  180  haproxy  -f  mylb.cfg
+  181  vim mylb.cfg
+  182  haproxy  -f  mylb.cfg
+  183  vim mylb.cfg
+  184  haproxy  -f  mylb.cfg
+  185  vim mylb.cfg
+  186  haproxy  -f  mylb.cfg
+  187  vim mylb.cfg
+  188  haproxy  -f  mylb.cfg
+  189  vim mylb.cfg
+  190  haproxy  -f  mylb.cfg
+  191  vim mylb.cfg
+  192  haproxy  -f  mylb.cfg
+  193  vim mylb.cfg
+  194  ls
+  195  vim mylb.cfg
+  196  ssh  -i my.key  ec2-user@172.31.40.232
+  197  exit
+  198  ls
+  199  cat s.cfg
+  200  cat lbalgo.cfg
+  201  vim s.cfg
+  202  haproxy -f s.cfg -c
+  203  haproxy -f s.cfg  &
+  204  vim s.cfg
+  205  fg
+                              
+    204  vim s.cfg
+  205  fg
+  206  haproxy -f s.cfg  &
+  207  ls
+  208  cd /tmp/
+  209  ls
+  210  cd /var/run/
+  211  ls
+  212  ls -rlt
+  213  date
+  214  cd
+  215  ls
+  216  vim s.cfg
+  217  fg
+  218  haproxy -f s.cfg  &
+  219  fg
+  220  jobs
+  221  fg
+  222  haproxy -f s.cfg  &
+  223  vim s.cfg
+  224  fg
+  225  haproxy -f s.cfg  &
+  226  fg
+  227  vim s.cfg
+  228  fg
+  229  jobs
+  230  haproxy -f s.cfg  &
+  231  fg
+  232  vim s.cfg
+  233  haproxy -f s.cfg  &
+
+
+ 233  haproxy -f s.cfg  &
+  234  fg
+  235  vim s.cfg
+  236  haproxy -f s.cfg  &
+  237  cd /var/log/
+  238  ls
+  239  ls -ltr
+  240  date
+  241  cat messages
+  242  cd
+  243  vim s.cfg
+  244  fg
+  245  haproxy -f s.cfg  &
+  246  vim s.cfg
+  247  telnet
+  248  yum  install  telnet
+  249  telnet 127.0.0.1 8080
+  250  fg
+  251  vim s.cfg
+  252  haproxy -f s.cfg  &
+  253  vim s.cfg
+  254  vim string.acl
+  255  vim s.cfg
+  256  haproxy -f s.cfg  &
+  257  fg
+  258  vim s.cfg
+  259  ls
+  260  vim string.acl
+  261  fg
+  262  haproxy -f s.cfg  &
+  263  vim string.acl
+
+
+  262  haproxy -f s.cfg  &
+  263  vim string.acl
+  264  vim s.cfg
+  265  echo "show table st_ssl_stats" | socat stdio UNIX-CONNECT:/var/run/hapee-1.8/hapee-lb.sock
+  266  yum install socat
+  267  echo "show table st_ssl_stats" | socat stdio UNIX-CONNECT:/var/run/hapee-1.8/hapee-lb.sock
+  268  ls
+  269  vim mylb.cfg
+  270  vim new.cfg
+  271  vim lbalgo.cfg
+  272  haproxy  -f lbalgo.cfg  -c
+  273  haproxy  -f lbalgo.cfg
+  274  haproxy  -f lbalgo.cfg   &
+  275  netstat
+  276  ss  -tnlp
+  277  jobs
+  278  fg
+  279  vim lbalgo.cfg
+  280  haproxy  -f lbalgo.cfg
+  281  vim lbalgo.cfg
+  282  haproxy  -f lbalgo.cfg
+  283  vim lbalgo.cfg
+  284  haproxy  -f lbalgo.cfg
+  285  vim lbalgo.cfg
+  286  haproxy  -f lbalgo.cfg
+  287  vim lbalgo.cfg
+  288  haproxy  -f lbalgo.cfg
+  289  ls
+  290  vim lbalgo.cfg
+  291  haproxy  -f lbalgo.cfg
+
+
+ 291  haproxy  -f lbalgo.cfg
+  292  vim lbalgo.cfg
+  293  haproxy  -f lbalgo.cfg
+  294  vim lbalgo.cfg
+  295  haproxy  -f lbalgo.cfg
+  296  vim lbalgo.cfg
+  297  haproxy  -f lbalgo.cfg
+  298  vim lbalgo.cfg
+  299  haproxy  -f lbalgo.cfg
+  300  vim lbalgo.cfg
+  301  haproxy  -f lbalgo.cfg
+  302  vim lbalgo.cfg
+  303  haproxy  -f lbalgo.cfg
+  304  vim lbalgo.cfg
+  305  haproxy  -f lbalgo.cfg
+  306  vim lbalgo.cfg
+  307  haproxy  -f lbalgo.cfg
+  308  vim lbalgo.cfg
+  309  haproxy  -f lbalgo.cfg
+  310  vim lbalgo.cfg
+  311  haproxy  -f lbalgo.cfg
+  312  ls
+  313  vim mylb.cfg
+  314  vim lbalgo.cfg
+  315  vim mylb.cfg
+  316  vim lbalgo.cfg
+  317  haproxy  -f lbalgo.cfg
+  318  vim lbalgo.cfg
+  319  haproxy  -f lbalgo.cfg
+  320  vim lbalgo.cfg
+  321  haproxy  -f lbalgo.cfg
+
+
+  321  haproxy  -f lbalgo.cfg
+  322  vim lbalgo.cfg
+  323  haproxy  -f lbalgo.cfg
+  324  vim lbalgo.cfg
+  325  haproxy  -f lbalgo.cfg
+  326  vim lbalgo.cfg
+  327  haproxy  -f lbalgo.cfg
+  328  vim lbalgo.cfg
+  329  haproxy  -f lbalgo.cfg
+  330  vim lbalgo.cfg
+  331  haproxy  -f lbalgo.cfg
+  332  vim lbalgo.cfg
+  333  haproxy  -f lbalgo.cfg
+  334  vim lbalgo.cfg
+  335  haproxy  -f lbalgo.cfg
+  336  ls
+  337  ps aux | grep ha
+  338  ps aux | grep haproxy
+  339  pidof haproxy
+  340  kill -9 `pidof haproxy`
+  341  pidof haproxy
+  342  ls
+  343  vim s.cfg
+  344  haproxy  -f s.cfg &
+  345  haproxy  -f s.cfg -c
+  346  vim s.cfg
+  347  haproxy  -f s.cfg -c
+  348  touch /var/run/haproxy.stats
+  349  haproxy  -f s.cfg -c
+
+
+  349  haproxy  -f s.cfg -c
+  350  vim s.cfg
+  351  haproxy  -f s.cfg -c
+  352  haproxy  -f s.cfg - &
+  353  haproxy  -f s.cfg &
+  354  jobs
+  355  cd /run/
+  356  ls
+  357  ls -l haproxy.stats
+  358  pwd
+  359  rm haproxy.stats
+  360  cd
+  361  vim s.cfg
+  362  haproxy  -f s.cfg &
+  363  cd /run/
+  364  ls
+  365  echo "show pools" | sudo -u haproxy socat stdio unix-connect:/var/run/haproxy/admin.sock
+  366  echo "show pools" | sudo -u haproxy socat stdio unix-connect:/run/admin.sock
+  367  setenforce  0
+  368  echo "show pools" | sudo -u haproxy socat stdio unix-connect:/run/admin.sock
+  369  echo "show pools" |  socat stdio unix-connect:/run/admin.sock
+  370  echo "show info" |  socat stdio unix-connect:/run/admin.sock
+  371  echo "show backends" |  socat stdio unix-connect:/run/admin.sock
+  372  echo "show backend" |  socat stdio unix-connect:/run/admin.sock
+  373  echo "show servers state per_ip_rates" |  socat stdio unix-connect:/run/admin.sock
+  374  echo "show servers state myhttp_backend_leastconn" |  socat stdio unix-connect:/run/admin.sock
+  375  echo "show stat" |  socat stdio unix-connect:/run/admin.sock
+  376  cd
+  377  vim s.cfg
+  378  fg
+
+
+  379  haproxy  -f s.cfg &
+  380  history
+  381  echo "show backends" |  socat stdio unix-connect:/run/admin.sock
+  382  echo "show info" |  socat stdio unix-connect:/run/admin.sock
+  383  cd /run/
+  384  ls
+  385  ls -l
+  386  ls -l admin.sock
+  387  history
+  388  echo "show info" |  socat stdio unix-connect:/run/admin.sock
+  389  echo "show info" | sudo -u haproxy  socat stdio unix-connect:/run/admin.sock
+  390  echo "show info" |  socat stdio unix-connect:/run/admin.sock
+  391  cd
+  392  vim s.cfg
+  393  fg
+  394  ps aux | grep ha
+  395  ps aux | grep haproxy
+  396  haproxy  -f s.cfg
+  397  ps aux | grep haproxy
+  398  haproxy  -f s.cfg  &
+  399  vim s.cfg
+  400  haproxy  -f s.cfg  &
+  401  echo "show backends" |  socat stdio unix-connect:/run/admin.sock
+  402  echo "show backend" |  socat stdio unix-connect:/run/admin.sock
+  403  history
+  404  1306
+  405  echo "show servers state per_ip_rates" |  socat stdio unix-connect:/run/admin.sock
+  406  echo "show backend" |  socat stdio unix-connect:/run/admin.sock
+  407  echo "show servers state myhttp_backend_leastconn" |  socat stdio unix-connect:/run/admin.sock
+  408  vim s.cfg
+
+
+  407  echo "show servers state myhttp_backend_leastconn" |  socat stdio unix-connect:/run/admin.sock
+  408  vim s.cfg
+  409  fg
+  410  haproxy  -f s.cfg  &
+  411  echo "show servers state myhttp_backend_leastconn" |  socat stdio unix-connect:/run/admin.sock
+  412  vim s.cfg
+  413  fg
+  414  haproxy  -f s.cfg  &
+  415  echo "show backend" |  socat stdio unix-connect:/run/admin.sock
+  416  vim s.cfg
+  417  fg
+  418  socat  stdio  /run/ha.sock
+  419  hostname
+  420  socat  stdio  /run/ha.sock
+  421  cat api.cfg
+  422  socat  stdio  /run/ha.sock
+  423  show servers
+  424  pidof haproxy
+  425  cat api.cfg
+  426  socat  stdio  /run/ha.sock
+  427  echo show backend
+  428  echo show backend | socat stdin  /run/ha.sock
+  429  echo "show backend" | socat stdin  /run/ha.sock
+  430  jobs
+  431  haproxy  -f api.cfg  &
+  432  echo "show backend" | socat stdin  /run/ha.sock
+  433  echo "show backend" | socat stdin  unix-connect:/run/ha.sock
+  434  ps aux |  grep hapr
+  435  pidof haproxy
+
+
+7  pidof haproxy
+  438  ps aux |  grep hapr
+  439  haproxy  -f api.cfg  &
+  440  pidof haproxy
+  441  socat stdin  unix-connect:/run/ha.sock
+  442  echo "show backend" | socat stdin  unix-connect:/run/ha.sock
+  443  echo "show pools" | sudo -u haproxy socat stdio unix-connect:/run/ha.sock
+  444  pidof haproxy
+  445  echo "show pools" | sudo -u root socat stdio unix-connect:/run/ha.sock
+  446  echo "show backend" | sudo -u root socat stdio unix-connect:/run/ha.sock
+  447  echo "show servers state  myhttp_backend" | sudo -u root socat stdio unix-connect:/run/ha.sock
+  448  history
+  449  ls
+  450  vim api.cfg
+  451  haproxy  -f api.cfg -c
+  452  fg
+  453  haproxy  -f api.cfg  &
+  454  socat stdin  unix-connect:/run/ha.sock
+  455  cat api.cfg
+  456  socat stdin  unix-connect:/run/ha.sock
+  457  echo "show table" | socat stdin  unix-connect:/run/ha.sock
+  458  echo "show table" | sudo -u root socat stdin  unix-connect:/run/ha.sock
+  459  echo "show table" | sudo  socat stdin unix-connect:/run/ha.sock
+  460  history
+  461  jobs
+  462  echo "show table" | sudo -u root socat stdin  unix-connect:/run/ha.sock
+  463  socat stdin  unix-connect:/run/ha.sock
+  464  cat api.cfg
+  465  socat stdin  unix-connect:/run/ha.sock
+  466  vim api.cfg
+  465  socat stdin  unix-connect:/run/ha.sock
+  466  vim api.cfg
+  467  haproxy -f api.cfg  -c
+  468  vim api.cfg
+  469  haproxy -f api.cfg  -c
+  470  fg
+  471  haproxy -f api.cfg  &
+  472  socat stdin  unix-connect:/run/ha.sock
+  473  vim api.cfg
+  474  socat stdin  unix-connect:/run/ha.sock
+  475  vim api.cfg
+  476  fg
+  477  haproxy -f api.cfg  &
+  478  vim api.cfg
+  479  fg
+  480  pidof haproxy
+  481  haproxy -f api.cfg  &
+  482  vim api.cfg
+  483  fg
+  484  haproxy -f api.cfg  &
+  485  fg
+  486  ls
+  487  haproxy -f s.cfg  &
+  488  fg
+  489  cls
+  490  clear
+  491  ab
+  492  yum  install ab
+  493  yum  whatprovides ab
+  494  yum  install  httpd-tools
+
+
+ 494  yum  install  httpd-tools
+  495  fg
+  496  vim api.cfg
+  497  fg
+  498  haproxy -f api.cfg  &
+  499  vim api.cfg
+  500  haproxy -f api.cfg  &
+  501  ab -k -c 350 -n 20000  http://3.110.85.26:8080
+  502  ab  -c 350 -n 20000  http://3.110.85.26:8080
+  503  ab  -c 350 -n 20000  http://3.110.85.26:8080/
+  504  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  505  vim api.cfg
+  506  fg
+  507  haproxy -f api.cfg  &
+  508  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  509  haproxy -f api.cfg  &
+  510  fg
+  511  vim api.cfg
+  512  fg
+  513  haproxy  -f api.cfg  &
+  514  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  515  vim api.cfg
+  516  fg
+  517  haproxy  -f api.cfg  &
+  518  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  519  vim api.cfg
+  520  fg
+  521  haproxy  -f api.cfg  &
+  522  lscpu
+  523  vim api.cfg
+  524  fg
+
+
+523  vim api.cfg
+  524  fg
+  525  haproxy  -f api.cfg  &
+  526  jobs
+  527  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  528  ps aux | grep hap
+  529  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  530  vim api.cfg
+  531  fg
+  532  haproxy  -f api.cfg  &
+  533  vim api.cfg
+  534  haproxy  -f api.cfg  &
+  535  ps aux | grep hap
+  536  ab  -c 100 -n 2000  http://3.110.85.26:8080/
+  537  sysctl  -a
+  538  sysctl  -a   | grep file-max
+  539  ls
+  540  rpm -q haproxy
+  541  cd /etc/haproxy/
+  542  ls
+  543  vim haproxy.cfg
+  544  cd
+  545  ls
+  546  fg
+  547  cat api.cfg
+  548  vim /etc/haproxy/haproxy.cfg
+  549  systemctl restart haproxy
+  550  systemctl status  haproxy
+  551  vim /etc/haproxy/haproxy.cfg
+  552  mkdir /etc/haproxy/ssl
+  553  cd /etc/haproxy/ssl
+
+
+ 552  mkdir /etc/haproxy/ssl
+  553  cd /etc/haproxy/ssl
+  554  ls
+  555  openssl  genrsa -out server.key 2048
+  556  ls
+  557  openssl  req  -new -key server.key  -out server.csr
+  558  ls
+  559  openssl  x509 -req -days 365 in server.csr  -signkey server.key -out server.crt
+  560  openssl  x509 -req -days 365 -in server.csr  -signkey server.key -out server.crt
+  561  ls
+  562  cat  server.crt  server.key
+  563  cat  server.crt  server.key   > server.pem
+  564  ls
+  565  cd ..
+  566  pwd
+  567  vim haproxy.cfg
+  568  cd ssl/
+  569  ls
+  570  pwd
+  571  cd ..
+  572  vim haproxy.cfg
+  573  systemctl restart haproxy
+  574  systemctl status  haproxy
+  575  history
+  576  vim haproxy.cfg
+  577  systemctl restart haproxy
+  578  systemctl status  haproxy
+  579  vim haproxy.cfg
+  580  systemctl restart haproxy
+  581  vim haproxy.cfg
+  582  systemctl restart haproxy
+                                             
+                                             
+                                              582  systemctl restart haproxy
+  583  vim haproxy.cfg
+  584  systemctl restart haproxy
+  585  systemctl status  haproxy
+  586  vim haproxy.cfg
+  587  systemctl status  haproxy
+  588  systemctl start  haproxy
+  589  vim haproxy.cfg
+  590  systemctl start  haproxy
+  591  systemctl restart  haproxy
+  592  vim haproxy.cfg
+  593  systemctl restart  haproxy
+  594  ls
+  595  cd
+  596  ls
+  597  cat api.cfg
+  598  ls
+  599  cat lbalgo.cfg
+  600  ls
+  601  cat mylb.cfg
+  602  ls
+  603  cat new.cfg
+  604  ls
+  605  cat s.cfg
+  606  ls
+  607  cat s
+  608  cat string.acl
+  609  vim /etc/haproxy/haproxy.cfg
+  610  history
+  611  history  > cmd.txt
+
+ 606  ls
+  607  cat s
+  608  cat string.acl
+  609  vim /etc/haproxy/haproxy.cfg
+
+
+
+
